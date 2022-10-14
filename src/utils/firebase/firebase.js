@@ -7,18 +7,13 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const firebaseConfig = {
-  // apiKey: "AIzaSyDTzig7iRcyjqkNpF4ihuD4igCxrOQhXPA",
-  // authDomain: "fan-crowd-81a6a.firebaseapp.com",
-  // projectId: "fan-crowd-81a6a",
-  // storageBucket: "fan-crowd-81a6a.appspot.com",
-  // messagingSenderId: "391936695307",
-  // appId: "1:391936695307:web:f6bbe938df909730513b0e",
   apiKey: process.env.REACT_APP_apiKey,
   authDomain: process.env.REACT_APP_authDomain,
   projectId: process.env.REACT_APP_projectId,
   storageBucket: process.env.REACT_APP_storageBucket,
   messagingSenderId: process.env.REACT_APP_messagingSenderId,
   appId: process.env.REACT_APP_appId,
+  measurementId: process.env.REACT_APP_measurementId,
 };
 
 if (!firebase.apps.length) {

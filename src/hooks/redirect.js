@@ -1,8 +1,8 @@
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Redirect() {
-  let history = useHistory();
-  return history;
+  let navigate = useNavigate();
+  return navigate;
 }
 
 export default Redirect;

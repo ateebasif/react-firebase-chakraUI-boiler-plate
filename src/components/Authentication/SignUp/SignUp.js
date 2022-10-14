@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, chakra } from "@chakra-ui/react";
+import { chakra } from "@chakra-ui/react";
 
 import Form from "./Form";
 import { FormContainer } from "./styles";
